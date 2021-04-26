@@ -13,24 +13,26 @@
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css"/>
   <!-- CSS -->
   <link href="css/styles.css" rel="stylesheet"/>
-  <script src="js/scripts.js"></script>
+  <!-- JavaScript -->
+  <script src="js/scripts.js" defer></script>
 </head>
 <body>
   <!-- Navigation Section -->
-  <nav class="" id="">
-    <a href="">
-      <span>Jason Jones</span>
-      <span><img src="assets/profile-pic.jpg" alt="Picture of Jason"></span>
+  <nav class="navbar">
+    <div class="brand-title">Jason Jones</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
     </a>
-    <button></button>
-    <div>
+    <div class="navbar-links">
       <ul>
-        <li>About</li>
-        <li>Experience</li>
-        <li>Education</li>
-        <li>Skills</li>
-        <li>Awards</li>
-        <li>Interests</li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Expeirence</a></li>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Awards</a></li>
+        <li><a href="#">Interests</a></li>
       </ul>
     </div>
   </nav>
@@ -38,13 +40,10 @@
   <div>
     <!-- About Section -->
     <section>
-      <div>
-        <h1>
-          Jason
-          <span class="">Jones</span>
-        </h1>
-        <div>
-          "ADDRESS PHONE#"
+      <div class="flex-container">
+        <div class="section-side-content">
+        <h1> Jason Jones </h1>
+        <div>"ADDRESS PHONE#"
           <a href="">JasonJabarJones@gmail.com</a>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra adipiscing at in tellus integer. Aliquam nulla facilisi cras fermentum odio. Ut placerat orci nulla pellentesque dignissim enim.</p>
@@ -54,59 +53,64 @@
           <a href="facebook">facebook<i></i></a>
           <a href="twitter">twitter<i></i></a>
         </div>
+        </div>
+        <div class="section-content">
+          <img src="assets/profile-pic.jpg" alt="Picture of Jason">
+        </div>
       </div>
+
     </section>
     <hr />
     <!-- Experience Section -->
-    <section>
-      <div>
-        <h2>Experience</h2>
-        <div>
+    <section class="">
+      <div class="flex-container" id="">
+        <div class="section-side-content" id="">
+          <h2 class="">Experience</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="section-content">
           <div>
             <h3>Data Center Specialist</h3>
-            <div>Georgia Institute of Technology</div>
+            <span>Georgia Institute of Technology</span>>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra adipiscing at in tellus integer. Aliquam nulla facilisi cras fermentum odio. Ut placerat orci nulla pellentesque dignissim enim.</p>
+            <span>July 2020 - Present</span>
           </div>
-          <div><span>July 2020 - Present</span></div>
-        </div>
-        <div>
           <div>
             <h3>IT Support Specialist</h3>
-            <div>Georgia Department of Public Health</div>
+            <span>Georgia Department of Public Health</span>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra adipiscing at in tellus integer. Aliquam nulla facilisi cras fermentum odio. Ut placerat orci nulla pellentesque dignissim enim.</p>
+            <span>June 2016 - July 2020</span>
           </div>
-          <div><span>June 2016 - July 2020</span></div>
         </div>
       </div>
     </section>
     <hr />
     <!-- Education Section -->
-    <section>
-      <div>
-        <h2>Education</h2>
-        <div>
+    <section class="">
+      <div class="flex-container">
+        <div class="section-side-content" id="">
+          <h2 class="">Education</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="section-content">
           <div>
             <h3>Launch School</h3>
-            <div>Software Engineering, Full Stack Web Development</div>
-            <div>Core Cirriculum - JavaScript Track</div>
+            <span>Software Engineering, Full Stack Web Development</span>
+            <span>Core Cirriculum - JavaScript Track</span>
+            <span>March 2021 - Present</span>
           </div>
-          <div><span>March 2021 - Present</span></div>
-        </div>
-        <div>
           <div>
             <h3>freeCodeCamp</h3>
-            <div>Full Stack Web Development</div>
+            <span>Full Stack Web Development</span>
+            <span>December 2018 - Present</span>
           </div>
-          <div><span>December 2018 - Present</span></div>
-        </div>
-        <div>
           <div>
             <h3>Columbus Technical College</h3>
-            <div>Associate of Applied Science</div>
-            <div>Computer Information Systems - Networking</div>
+            <span>Associate of Applied Science</span>
+            <span>Computer Information Systems - Networking</span>
             <p>GPA: 4.00</p>
+            <span>Spring 2014 - Fall 2015</span>
           </div>
-          <div><span>Spring 2014 - Fall 2015</span></div>
         </div>
       </div>
     </section>
