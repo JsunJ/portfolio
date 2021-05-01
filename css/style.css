@@ -8,6 +8,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   overscroll-behavior-y: none;
@@ -23,7 +27,7 @@ a {
 }
 
 p {
-  margin: .5rem 0;
+  margin: 1rem 0;
 }
 
 img {
@@ -31,7 +35,7 @@ img {
 }
 
 hr {
-  height: 2px;
+  height: 1px;
   background-color: #f1f1f1;
   border: none;
 }
@@ -41,7 +45,7 @@ hr {
 .navbar {
   position: sticky;
   top: 0;
-  padding: 1rem 5rem;
+  padding: .5rem 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -164,6 +168,10 @@ hr {
 
 /* ABOUT ME */
 
+#about {
+  scroll-margin-top: 4.125rem;
+}
+
 #about-container {
   display: flex;
   justify-content: space-between;
@@ -174,9 +182,68 @@ hr {
   width: 50%;
 }
 
+#about-me h1 {
+  text-align: center;
+}
+
 #about-me p {
   display: flex;
   justify-content: space-between;
+}
+
+.about-info-title {
+  text-transform: uppercase;
+}
+
+#about-me p span {
+  font-size: 1rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-links span {
+  margin-right: 1rem;
+}
+
+.social-links i {
+  color: #047aed;
+}
+
+.about-btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.about-btn {
+  padding: 1rem;
+  width: 40%;
+}
+
+#contact-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: #047aed;
+}
+
+#resume-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  background-color: #f1f1f1;
+}
+
+#about-content {
+  margin-left: 0;
+  width: 100%;
 }
 
 .profile-picture {
@@ -186,9 +253,41 @@ hr {
   margin-right: auto;
 }
 
+/* EXPERIENCE */
+
+#experience {
+  scroll-margin-top: 4.125rem;
+}
+
+/* EDUCATION */
+
+#education {
+  scroll-margin-top: 4.125rem;
+}
+
+/* SKILLS */
+
+#skills {
+  scroll-margin-top: 4.125rem;
+}
+
+/* AWARDS */ 
+
+#awards {
+  scroll-margin-top: 4.125rem;
+}
+
+/* INTERESTS */
+
+#interests {
+  scroll-margin-top: 4.125rem;
+}
+
 /* CONTACT */
 
-
+#contact {
+  scroll-margin-top: 4.125rem;
+}
 
 /* FOOTER */
 
